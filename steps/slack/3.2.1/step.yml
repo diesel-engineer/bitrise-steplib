@@ -248,14 +248,14 @@ inputs:
       leave this option empty then the default one will be used.
     title: Thumbnail if the build failed
   thumb_url_on_error: null
-- footer: Bitrise
+- footer: Gitlab
   opts:
     description: |
       The footer adds some brief text to help contextualize and identify an attachment.
 
       Limited to 300 characters.
     title: Footer adds some brief text as footer
-- footer_icon: https://github.com/bitrise-io.png?size=16
+- footer_icon: https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png
   opts:
     description: |
       Renders a small icon beside the footer text
