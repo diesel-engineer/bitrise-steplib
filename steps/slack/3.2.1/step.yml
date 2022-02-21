@@ -120,7 +120,7 @@ inputs:
       **This option will be used if the build failed.** If you
       leave this option empty then the default one will be used.
     title: Emoji to use as the icon for the message if the build failed
-- icon_url: https://github.com/bitrise-io.png
+- icon_url: https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png
   opts:
     description: |
       Optionally, you can specify a custom icon image URL
@@ -131,7 +131,7 @@ inputs:
       Slack custom emoji guideline: [https://slack.zendesk.com/hc/en-us/articles/202931348-Using-emoji-and-emoticons](https://slack.zendesk.com/hc/en-us/articles/202931348-Using-emoji-and-emoticons)
       If you specify this input, the **Emoji** input will be ignored!
     title: Message icon
-- icon_url_on_error: https://github.com/bitrise-io.png
+- icon_url_on_error: https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png
   opts:
     category: If Build Failed
     description: |
@@ -146,12 +146,12 @@ inputs:
     value_options:
     - "yes"
     - "no"
-- from_username: Bitrise
+- from_username: Gitlab
   opts:
     description: |
       The username of the bot user which will be presented as the sender of the message
     title: The bot's username for the message
-- from_username_on_error: Bitrise
+- from_username_on_error: Gitlab
   opts:
     category: If Build Failed
     description: |
